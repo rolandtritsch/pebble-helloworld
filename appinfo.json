@@ -1,0 +1,18 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "21dfd46c-cc1a-4fb0-a60c-592c11531af8",
+    "appKeys": {},
+    "longName": "HelloWorld",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "HelloWorld",
+    "companyName": "rolandtritsch",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": []
+    }
+}
