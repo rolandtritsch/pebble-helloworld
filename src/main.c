@@ -8,8 +8,8 @@ void window_load(Window* w) {
   g_hello_text_layer = text_layer_create(GRect(0, 0, 144, 168));
   text_layer_set_background_color(g_hello_text_layer, GColorClear);
   text_layer_set_text_color(g_hello_text_layer, GColorBlack);
-  text_layer_set_font(g_hello_text_layer, fonts_get_system_font("RESOURCE_ID_BITHAM_42_BOLD"));
-  text_layer_set_text(text_layer, "Hello Sean!");
+  text_layer_set_font(g_hello_text_layer, fonts_get_system_font("RESOURCE_ID_DROID_SERIF_28_BOLD"));
+  text_layer_set_text(g_hello_text_layer, "Hello Roland!");
 
   layer_add_child(window_get_root_layer(w), (Layer*)g_hello_text_layer);
 }
