@@ -9,7 +9,7 @@ void window_load(Window* w) {
   text_layer_set_background_color(g_hello_text_layer, GColorClear);
   text_layer_set_text_color(g_hello_text_layer, GColorBlack);
   text_layer_set_font(g_hello_text_layer, fonts_get_system_font("RESOURCE_ID_DROID_SERIF_28_BOLD"));
-  text_layer_set_text(g_hello_text_layer, "Welcome Joseph!!");
+  text_layer_set_text(g_hello_text_layer, "!!!\nHello\nWorld\n!!!");
 
   layer_add_child(window_get_root_layer(w), (Layer*)g_hello_text_layer);
 }
